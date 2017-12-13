@@ -1,0 +1,48 @@
+@font-face {
+font-family: "Europa Regular";
+src: url("fonts/Europa Regular/europa-regular-webfont.eot");
+src:
+url("fonts/Europa Regular/europa-regular-webfont.woff") format("woff"),
+url("fonts/Europa Regular/europa-regular-webfont.otf") format("opentype"),
+url("fonts/Europa Regular/europa-regular-webfont.svg#filename") format("svg");}
+
+@font-face {
+font-family: "Tex Gyre Regular";
+src: url("fonts/Tex Gyre Regular/texgyreschola-regular-webfont.eot");
+src:
+url("fonts/Tex Gyre Regular/texgyreschola-regular-webfont.woff") format("woff"),
+url("fonts/Tex Gyre Regular/texgyreschola-regular-webfont.otf") format("opentype"),
+url("fonts/Tex Gyre Regular/texgyreschola-regular-webfont.svg#filename") format("svg");}
+
+h1 {
+  font-family:'Europa Regular';
+  font-size: 36;
+  text-align: center;
+  color: rgb(207,69,33);}
+
+p.Tex-Gyre{
+  font-family: 'Tex Gyre Regular';
+  font-size: 16px;}
+
+p {
+  font-size: 16px;}
+
+img {
+    position: fixed;
+    text-align: center;
+     padding: 70px 0;
+    bottom: 0;
+    right: 0;}
+
+h1.secondary {
+  color:magenta;}
+
+h1.third {
+  color:pink;}
+
+
+p.FontandColor {
+  color:red;
+  font-family: 'Tex Gyre Regular';
+  font-size: 36px;
+}
