@@ -14,7 +14,15 @@ url("fonts/Tex Gyre Regular/texgyreschola-regular-webfont.woff") format("woff"),
 url("fonts/Tex Gyre Regular/texgyreschola-regular-webfont.otf") format("opentype"),
 url("fonts/Tex Gyre Regular/texgyreschola-regular-webfont.svg#filename") format("svg");}
 
-img {
+@font-face {
+font-family: "Tex Gyre Bold";
+src: url("fonts/Tex Gyre Bold/texgyreschola-bold-webfont.eot");
+src:
+url("fonts/Tex Gyre Bold/texgyreschola-bold-webfont.woff") format("woff"),
+url("fonts/Tex Gyre Bold/texgyreschola-bold-webfont.otf") format("opentype"),
+url("fonts/Tex Gyre Bold/texgyreschola-bold-webfont.svg#filename") format("svg");}
+
+img.chemex {
     position: fixed;
     text-align: center;
      padding: 70px 0;
@@ -38,4 +46,75 @@ h1 {
 p.first {
   font-size: 16px;
   text-align: right;
+}
+
+.potato {
+  color: green;
+  font-size: 24px;
+}
+
+p.potato {
+  font-size: 16px;
+  text-align: right;
+}
+
+span {
+  font-family: 'Tex Gyre Bold';
+  font-size: 48px;
+  color: rgb(207,69,33);
+}
+
+span b {
+  font-size: 20px;
+  vertical-align: 8px;
+}
+
+#content {
+  font-family: 'Tex Gyre Regular';
+  padding: 50px;
+  text-align: center;
+  margin-left: 370px;
+  margin-right: 370px;
+  background-color: white;
+}
+
+p.boldText {
+  font-family: 'Tex Gyre Bold';
+}
+
+p.adjust {
+  margin:0;
+}
+
+img.cart {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: auto;
+  float: center;
+}
+
+img.badge {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: auto;
+  float: center;
+}
+
+h1.forProduct {
+  font-family: "Tex Gyre Bold";
+  font-size: 60px;
+  color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+body {
+  background-image: url("../images/bluewood.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
