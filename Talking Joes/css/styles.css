@@ -73,9 +73,9 @@ span b {
   font-family: 'Tex Gyre Regular';
   padding: 50px;
   text-align: center;
-  margin-left: 370px;
-  margin-right: 370px;
+  margin-left: 140px;
   background-color: white;
+  max-width: 290px;
 }
 
 p.boldText {
@@ -105,16 +105,37 @@ img.badge {
 h1.forProduct {
   font-family: "Tex Gyre Bold";
   font-size: 60px;
-  color: white;
+  color: black;
   margin-left: 100px;
   margin-right: 100px;
 }
 
-body {
+body.product {
   background-image: url("../images/bluewood.jpg");
   height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  display: flex;
+  background-color: white;
+}
+
+#imageContent {
+  padding: 60px;
+  background-color: white;
+  margin-left: 100px;
+}
+
+img.bagOfCoffee {
+  height: 400px;
+}
+
+#wrap {
+  background-color: white;
 }
