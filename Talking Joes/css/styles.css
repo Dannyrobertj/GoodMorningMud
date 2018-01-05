@@ -22,6 +22,14 @@ url("fonts/Tex Gyre Bold/texgyreschola-bold-webfont.woff") format("woff"),
 url("fonts/Tex Gyre Bold/texgyreschola-bold-webfont.otf") format("opentype"),
 url("fonts/Tex Gyre Bold/texgyreschola-bold-webfont.svg#filename") format("svg");}
 
+@font-face {
+font-family: "Palm Canyon Drive Heavy";
+src: url("fonts/Palm Canyon Drive Heavy/palmcanyondrive-heavy-webfont.eot");
+src:
+url("fonts/Palm Canyon Drive Heavy/palmcanyondrive-heavy-webfont.woff") format("woff"),
+url("fonts/Palm Canyon Drive Heavy/palmcanyondrive-heavy-webfont.otf") format("opentype"),
+url("fonts/Palm Canyon Drive Heavy/palmcanyondrive-heavy-webfont.svg#filename") format("svg");}
+
 img.chemex {
     position: fixed;
     text-align: center;
@@ -103,15 +111,17 @@ img.badge {
 }
 
 h1.forProduct {
-  font-family: "Tex Gyre Bold";
-  font-size: 60px;
+  font-family: "Palm Canyon Drive Heavy";
+  font-size: 90px;
   color: black;
   margin-left: 100px;
   margin-right: 100px;
+  padding-top: 50px;
+  margin: 0 auto;
 }
 
 body.product {
-  background-image: url("../images/bluewood.jpg");
+  background-image: url("../images/off-black.png") ,url("../images/off-black.png");
   height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -127,15 +137,27 @@ body.product {
 }
 
 #imageContent {
-  padding: 60px;
+  padding: 30px;
   background-color: white;
   margin-left: 100px;
+  margin-bottom: 100px;
 }
 
 img.bagOfCoffee {
-  height: 400px;
+  height: 365px;
 }
 
 #wrap {
   background-color: white;
+}
+
+#blackground {
+  color: (33,37,43);
+}
+
+img.pouring {
+  display: block;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
