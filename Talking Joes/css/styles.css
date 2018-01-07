@@ -77,6 +77,13 @@ span b {
   vertical-align: 8px;
 }
 
+h1.blood {
+  font-family: 'Tex Gyre Bold';
+  font-size: 32px;
+  color: rgb(207,69,33);
+  margin: 0;
+}
+
 #content {
   font-family: 'Tex Gyre Regular';
   padding: 50px;
@@ -94,20 +101,13 @@ p.adjust {
   margin:0;
 }
 
-img.cart {
-  display: block;
-  margin: 0 auto;
-  width: 150px;
-  height: auto;
-  float: center;
-}
-
 img.badge {
   display: block;
   margin: 0 auto;
   width: 150px;
   height: auto;
   float: center;
+  padding-bottom: 10px;
 }
 
 h1.forProduct {
@@ -144,7 +144,7 @@ body.product {
 }
 
 img.bagOfCoffee {
-  height: 365px;
+  height: 410px;
 }
 
 #wrap {
@@ -160,4 +160,35 @@ img.pouring {
   height: 300px;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+nav {
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: (33,37,43);
+}
+
+li {
+  float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Tex Gyre Bold';
+    font-size: 20px;
+}
+
+li a:hover {
+  background-color: rgb(207,69,33);
 }
