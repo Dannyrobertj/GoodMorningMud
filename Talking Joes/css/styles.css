@@ -112,12 +112,20 @@ img.badge {
 
 h1.forProduct {
   font-family: "Palm Canyon Drive Heavy";
-  font-size: 90px;
-  color: black;
+  font-size: 130px;
+  color: white;
   margin-left: 100px;
   margin-right: 100px;
-  padding-top: 50px;
+  padding-top: 30px;
   margin: 0 auto;
+  margin-bottom: 20px;
+  background-image: url("../images/roman.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1390px;
+  background-position: -60px -280px;
+  height: 150px;
+
 }
 
 body.product {
@@ -140,11 +148,11 @@ body.product {
   padding: 30px;
   background-color: white;
   margin-left: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 
-img.bagOfCoffee {
-  height: 410px;
+img.chemexPot {
+  height: 510px;
 }
 
 #wrap {
@@ -158,10 +166,8 @@ img.bagOfCoffee {
 img.pouring {
   display: block;
   height: 300px;
-  margin-left: auto;
-  margin-right: auto;
+  float: left;
 }
-
 
 nav {
   display: block;
@@ -175,20 +181,74 @@ ul {
   background-color: (33,37,43);
 }
 
-li {
-  float: left;
-}
-
 li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: 'Tex Gyre Bold';
-    font-size: 20px;
+    font-family: 'Europa Regular';
+    font-size: 18px;
 }
 
 li a:hover {
-  background-color: rgb(207,69,33);
+  color: rgb(150,150,150);
+}
+
+#listContent {
+  font-family: 'Tex Gyre Regular';
+  color: white;
+  margin-left: 100px;
+}
+
+li a.hyperList {
+  font-family: 'Europa Regular';
+  color: lightblue;
+  padding: 2px;
+  text-align: left;
+  font-size: 16px;
+}
+
+li a.hyperList:hover {
+  color:cyan;
+  padding: 2px;
+}
+
+li.navigation {
+  float: left;
+}
+
+#hyperContent {
+  max-width: 700px;
+  color: white;
+  margin-left: 100px;
+}
+
+#hyperWrapper {
+  display: flex;
+}
+
+p.Brew {
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 0;
+
+}
+
+p.BrewT {
+  font-family: 'Europa Regular';
+  font-size: 16px;
+  color: lightblue;
+  margin-top: 0;
+}
+
+h2.stepHeading {
+  font-family: 'Tex Gyre Regular';
+  margin-bottom: 0;
+}
+
+p.stepParagraph {
+  margin-top: 1;
+  font-family: 'Europa Regular';
+  font-size: 18px;
 }
