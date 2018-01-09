@@ -160,6 +160,7 @@ img.chemexPot {
 }
 
 #blackground {
+  margin-top: 30px;
   color: (33,37,43);
 }
 
@@ -199,6 +200,7 @@ li a:hover {
   font-family: 'Tex Gyre Regular';
   color: white;
   margin-left: 100px;
+  padding-top:10px;
 }
 
 li a.hyperList {
@@ -251,4 +253,41 @@ p.stepParagraph {
   margin-top: 1;
   font-family: 'Europa Regular';
   font-size: 18px;
+}
+
+img.filter1 {
+  height:150px;
+}
+
+img.filter2 {
+  height: 150px;
+}
+
+img.kettlePour {
+  width: 600px;
+}
+
+img.grounds {
+  width: 600px;
+}
+
+img.kettleWater {
+  width: 600px;
+}
+
+img.endPour {
+  width: 600px;
+}
+
+img.drip {
+  width: 600px;
+}
+
+h1.chemexBackground {
+  background-image: url("../images/chemexBackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1390px;
+  background-position: -50px -450px;
+  height: 400px;
 }
