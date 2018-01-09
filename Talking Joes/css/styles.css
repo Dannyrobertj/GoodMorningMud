@@ -33,7 +33,7 @@ url("fonts/Palm Canyon Drive Heavy/palmcanyondrive-heavy-webfont.svg#filename") 
 img.chemex {
     position: fixed;
     text-align: center;
-     padding: 70px 0;
+    padding: 70px 0;
     bottom: 0;
     right: 0;
   }
@@ -66,17 +66,6 @@ p.potato {
   text-align: right;
 }
 
-span {
-  font-family: 'Tex Gyre Bold';
-  font-size: 48px;
-  color: rgb(207,69,33);
-}
-
-span b {
-  font-size: 20px;
-  vertical-align: 8px;
-}
-
 h1.blood {
   font-family: 'Tex Gyre Bold';
   font-size: 32px;
@@ -91,6 +80,7 @@ h1.blood {
   margin-left: 140px;
   background-color: white;
   max-width: 290px;
+  min-width: 290px;
 }
 
 p.boldText {
@@ -108,24 +98,6 @@ img.badge {
   height: auto;
   float: center;
   padding-bottom: 10px;
-}
-
-h1.forProduct {
-  font-family: "Palm Canyon Drive Heavy";
-  font-size: 130px;
-  color: white;
-  margin-left: 100px;
-  margin-right: 100px;
-  padding-top: 30px;
-  margin: 0 auto;
-  margin-bottom: 20px;
-  background-image: url("../images/roman.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 1390px;
-  background-position: -60px -280px;
-  height: 150px;
-
 }
 
 body.product {
@@ -157,11 +129,13 @@ img.chemexPot {
 
 #wrap {
   background-color: white;
+  min-width: 1282px;
 }
 
 #blackground {
   margin-top: 30px;
   color: (33,37,43);
+  min-width: 1282px;
 }
 
 img.pouring {
@@ -290,4 +264,16 @@ h1.chemexBackground {
   background-size: 1390px;
   background-position: -50px -450px;
   height: 400px;
+}
+
+img.romanHeader {
+  margin: 0;
+  padding: 0;
+  width: 1282px;
+}
+
+img.chemexBackground {
+  margin: 0;
+  padding: 0;
+  width: 1282px;
 }
