@@ -101,7 +101,7 @@ img.badge {
 }
 
 body.product {
-  background-image: url("../images/off-black.png") ,url("../images/off-black.png");
+  background-color: rgb(33,37,43);
   height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -255,15 +255,6 @@ img.endPour {
 
 img.drip {
   width: 600px;
-}
-
-h1.chemexBackground {
-  background-image: url("../images/chemexBackground.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 1390px;
-  background-position: -50px -450px;
-  height: 400px;
 }
 
 img.romanHeader {
