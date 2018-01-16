@@ -21,6 +21,14 @@
  url("fonts/Europa Regular/europa-regular-webfont.svg#filename") format("svg");}
 
  @font-face {
+ font-family: "Tex Gyre Bold";
+ src: url("fonts/Tex Gyre Bold/texgyreschola-bold-webfont.eot");
+ src:
+ url("fonts/Tex Gyre Bold/texgyreschola-bold-webfont.woff") format("woff"),
+ url("fonts/Tex Gyre Bold/texgyreschola-bold-webfont.otf") format("opentype"),
+ url("fonts/Tex Gyre Bold/texgyreschola-bold-webfont.svg#filename") format("svg");}
+
+ @font-face {
  font-family: "Parker";
  src: url("fonts/Parker/parker-webfont.eot");
  src:
@@ -35,6 +43,14 @@
  url("fonts/Tofino Light/tofinolight-webfont.woff") format("woff"),
  url("fonts/Tofino Light/tofinolight-webfont.otf") format("opentype"),
  url("fonts/Tofino Light/tofinolight-webfont.svg#filename") format("svg");}
+
+ @font-face {
+ font-family: "Tex Gyre Regular";
+ src: url("fonts/Tex Gyre Regular/texgyreschola-regular-webfont.eot");
+ src:
+ url("fonts/Tex Gyre Regular/texgyreschola-regular-webfont.woff") format("woff"),
+ url("fonts/Tex Gyre Regular/texgyreschola-regular-webfont.otf") format("opentype"),
+ url("fonts/Tex Gyre Regular/texgyreschola-regular-webfont.svg#filename") format("svg");}
 
  .container {
    font-family: 'Parker';
@@ -84,9 +100,42 @@ color: white !important;
     width: 100%;
   }
 
+img.chemex {
+  margin: 25px auto 0 auto;
+  height: 510px;
+}
+
+img.badge-image  {
+  height: 150px;
+}
+
 .flex-container {
   display: -webkit-flex; /* Safari */
   display: flex;
   justify-content: center;
-  font-family: 'Tofino Light';
+  margin: 40px auto 0 auto;
+  flex-wrap: wrap;
+}
+
+.text-container {
+  text-align: center;
+  padding: 50px;
+  max-width: 390px;
+  min-width: 390px;
+  font-family: 'Tex Gyre Regular';
+  font-size: 16px;
+}
+
+.orange-text {
+  font-family: 'Tex Gyre Bold';
+  font-size: 32px;
+  color: rgb(207,69,33);
+}
+
+.boldText {
+  font-family: 'Tex Gyre Bold';
+}
+
+p.adjust {
+  margin-bottom: 20px;
 }
