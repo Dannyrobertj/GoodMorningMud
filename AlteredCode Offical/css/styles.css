@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ @font-face {
+ font-family: "Palm Canyon Drive Heavy";
+ src: url("fonts/Palm Canyon Drive Heavy/palmcanyondrive-heavy-webfont.eot");
+ src:
+ url("fonts/Palm Canyon Drive Heavy/palmcanyondrive-heavy-webfont.woff") format("woff"),
+ url("fonts/Palm Canyon Drive Heavy/palmcanyondrive-heavy-webfont.otf") format("opentype"),
+ url("fonts/Palm Canyon Drive Heavy/palmcanyondrive-heavy-webfont.svg#filename") format("svg");}
+
+ @font-face {
+ font-family: "Europa Regular";
+ src: url("fonts/Europa Regular/europa-regular-webfont.eot");
+ src:
+ url("fonts/Europa Regular/europa-regular-webfont.woff") format("woff"),
+ url("fonts/Europa Regular/europa-regular-webfont.otf") format("opentype"),
+ url("fonts/Europa Regular/europa-regular-webfont.svg#filename") format("svg");}
+
+ @font-face {
+ font-family: "Parker";
+ src: url("fonts/Parker/parker-webfont.eot");
+ src:
+ url("fonts/Parker/parker-webfont.woff") format("woff"),
+ url("fonts/Parker/parker-webfont.otf") format("opentype"),
+ url("fonts/Parker/parker-webfont.svg#filename") format("svg");}
+
+ @font-face {
+ font-family: "Tofino Light";
+ src: url("fonts/Tofino Light/tofinolight-webfont.eot");
+ src:
+ url("fonts/Tofino Light/tofinolight-webfont.woff") format("woff"),
+ url("fonts/Tofino Light/tofinolight-webfont.otf") format("opentype"),
+ url("fonts/Tofino Light/tofinolight-webfont.svg#filename") format("svg");}
+
+ .container {
+   font-family: 'Parker';
+   font-size: 125%;
+ }
+
+#Untitled {
+  height: 100%;
+  position: relative;
+  right: 5px;
+  bottom: 12px;
+}
+
+.navbar .navbar-nav li > a {
+  color: white !important;
+}
+
+.navbar .navbar-nav li > a:hover {
+  color: grey !important;
+}
+
+.navbar .navbar-nav li {
+  /* change color of subheadings in dropdown menu*/
+}
+
+.navbar .navbar-brand {
+font-size: 36px;
+color: white !important;
+}
+
+.navbar.navbar-default {
+  border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.dropdown li {
+  font-size: 16px;
+}
+
+.dropdown li > a {
+  font-size: 12px;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+  }
+
+.flex-container {
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  justify-content: center;
+  font-family: 'Tofino Light';
+}
