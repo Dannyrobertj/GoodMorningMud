@@ -5,14 +5,6 @@
 }
 
  @font-face {
- font-family: "Palm Canyon Drive Heavy";
- src: url("fonts/Palm Canyon Drive Heavy/palmcanyondrive-heavy-webfont.eot");
- src:
- url("fonts/Palm Canyon Drive Heavy/palmcanyondrive-heavy-webfont.woff") format("woff"),
- url("fonts/Palm Canyon Drive Heavy/palmcanyondrive-heavy-webfont.otf") format("opentype"),
- url("fonts/Palm Canyon Drive Heavy/palmcanyondrive-heavy-webfont.svg#filename") format("svg");}
-
- @font-face {
  font-family: "Europa Regular";
  src: url("fonts/Europa Regular/europa-regular-webfont.eot");
  src:
@@ -27,22 +19,6 @@
  url("fonts/Tex Gyre Bold/texgyreschola-bold-webfont.woff") format("woff"),
  url("fonts/Tex Gyre Bold/texgyreschola-bold-webfont.otf") format("opentype"),
  url("fonts/Tex Gyre Bold/texgyreschola-bold-webfont.svg#filename") format("svg");}
-
- @font-face {
- font-family: "Parker";
- src: url("fonts/Parker/parker-webfont.eot");
- src:
- url("fonts/Parker/parker-webfont.woff") format("woff"),
- url("fonts/Parker/parker-webfont.otf") format("opentype"),
- url("fonts/Parker/parker-webfont.svg#filename") format("svg");}
-
- @font-face {
- font-family: "Tofino Light";
- src: url("fonts/Tofino Light/tofinolight-webfont.eot");
- src:
- url("fonts/Tofino Light/tofinolight-webfont.woff") format("woff"),
- url("fonts/Tofino Light/tofinolight-webfont.otf") format("opentype"),
- url("fonts/Tofino Light/tofinolight-webfont.svg#filename") format("svg");}
 
  @font-face {
  font-family: "Tex Gyre Regular";
@@ -60,15 +36,20 @@
  url("fonts/Tofino Book/tofinobook-webfont.otf") format("opentype"),
  url("fonts/Tofino Book/tofinobook-webfont.svg#filename") format("svg");}
 
+/*Navigation Bar Start*/
+ .navbar.navbar-default {
+   border: 0;
+     -webkit-box-shadow: none;
+     box-shadow: none;
+ }
+
  .container {
    font-family: 'Tofino Book';
    font-size: 125%;
  }
 
-#Untitled {
-  height: 115%;
-  position: relative;
-  bottom: 7px;
+.navbar .navbar-nav li {
+  /* change color of subheadings in dropdown menu*/
 }
 
 .navbar .navbar-nav li > a {
@@ -79,19 +60,15 @@
   color: grey !important;
 }
 
-.navbar .navbar-nav li {
-  /* change color of subheadings in dropdown menu*/
-}
-
 .navbar .navbar-brand {
 font-size: 20px;
 color: white !important;
 }
 
-.navbar.navbar-default {
-  border: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+#Untitled {
+  height: 115%;
+  position: relative;
+  bottom: 7px;
 }
 
 .dropdown li {
@@ -106,14 +83,11 @@ color: white !important;
     top: 0;
     width: 100%;
   }
+/*Navigation Bar End*/
 
-img.chemex {
-  margin: 13px auto 0 auto;
-  height: 504px;
-}
-
-img.badge-image  {
-  height: 150px;
+/*Body Start*/
+body {
+  overflow-x: hidden;
 }
 
 .flex-container {
@@ -125,6 +99,19 @@ img.badge-image  {
   overflow-x: hidden;
 }
 
+.image-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden !important;
+  max-width: 100%;
+}
+
+.image-header img {
+  width: 1282px;
+  object-fit: cover;
+}
+
 .text-container {
   text-align: center;
   padding: 25px 50px 50px 50px;
@@ -134,33 +121,61 @@ img.badge-image  {
   font-size: 18px;
 }
 
+img.badge-image  {
+  height: 150px;
+}
+
 .orange-text {
   font-family: 'Tex Gyre Bold';
   font-size: 32px;
   color: rgb(207,69,33);
 }
 
-.boldText {
-  font-family: 'Tex Gyre Bold';
-}
-
 p.adjust {
   margin-bottom: 20px;
 }
 
-.image-header img {
-  width: 1282px;
-  object-fit: cover;
+.boldText {
+  font-family: 'Tex Gyre Bold';
 }
 
-.image-header {
+img.chemex {
+  margin: 13px auto 0 auto;
+  height: 504px;
+}
+
+@media screen and (max-width: 600px) {
+  img.chemex {
+    height: 350px;
+  }
+}
+
+.flex-container-2 {
+  display: -webkit-flex; /* Safari */
   display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow-x: hidden !important;
-  max-width: 100%;
+  /*Space-around?*/
+  margin: 40px auto 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 18px;
 }
 
-body {
-  overflow-x: hidden;
+.list-container {
+  font-family: 'Tex Gyre Regular';
+  color: black;
 }
+
+ul {
+  list-style-type: none;
+}
+
+li a {
+  font-family: 'Europa Regular';
+  color: rgb(0,129,238);
+}
+
+li a:hover {
+  color: rgb(0,160,238);
+  text-decoration: none;
+}
+/*Body End*/
