@@ -154,15 +154,21 @@ img.chemex {
   display: -webkit-flex; /* Safari */
   display: flex;
   /*Space-around?*/
-  margin: 40px auto 0 auto;
+  margin: 60px auto 0 auto;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 18px;
 }
 
 .list-container {
+  padding-top: 64px;
   font-family: 'Tex Gyre Regular';
-  color: black;
+  padding-right: 100px;
+  padding-left: 30px;
+}
+
+figcaption {
+  font-size: 24px;
 }
 
 ul {
@@ -172,10 +178,29 @@ ul {
 li a {
   font-family: 'Europa Regular';
   color: rgb(0,129,238);
+  font-size: 20px;
 }
 
 li a:hover {
   color: rgb(0,160,238);
   text-decoration: none;
 }
+
+.textbox-container {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'Tex Gyre Regular';
+  max-width: 700px;
+  word-wrap: normal;
+}
+
+p.textbox-container {
+  font-family: 'Europa Regular';
+}
+
+h1.textbox-container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /*Body End*/
