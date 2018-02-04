@@ -99,16 +99,8 @@ body {
   overflow-x: hidden;
 }
 
-.image-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow-x: hidden !important;
-  max-width: 100%;
-}
-
 .image-header img {
-  width: 1282px;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -133,6 +125,7 @@ img.badge-image  {
 
 p.adjust {
   margin-bottom: 20px;
+  font-family: "Europa Regular";
 }
 
 .boldText {
@@ -147,6 +140,21 @@ img.chemex {
 @media screen and (max-width: 600px) {
   img.chemex {
     height: 350px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .image-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .image-header img {
+    width: 1000px;
   }
 }
 
