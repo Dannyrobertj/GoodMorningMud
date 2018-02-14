@@ -175,7 +175,7 @@ h1.textbox-container {
     left: -250px;
     height: 100vh;
     z-index: 999;
-    background: #7386D5;
+    background: rgb(33,37,43);
     color: #fff;
     transition: all 0.3s;
     overflow-y: scroll;
@@ -191,18 +191,14 @@ h1.textbox-container {
     height: 35px;
     line-height: 35px;
     text-align: center;
-    background: #7386D5;
     position: absolute;
-    top: 10px;
-    right: 10px;
     cursor: pointer;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
 #dismiss:hover {
-    background: #fff;
-    color: #7386D5;
+    color: rgb(33,37,43);
 }
 
 .overlay {
@@ -216,12 +212,11 @@ h1.textbox-container {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #6d7fcc;
+    background: rgb(207,69,33);
 }
 
 #sidebar ul.components {
-    padding: 20px 0;
-    border-bottom: 1px solid #47748b;
+
 }
 
 #sidebar ul p {
@@ -233,17 +228,20 @@ h1.textbox-container {
     padding: 10px;
     font-size: 1.1em;
     display: block;
+    color: #fff;
 }
 #sidebar ul li a:hover {
-    color: #7386D5;
-    background: #fff;
+    color: rgb(207,69,33);
 }
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
-    color: #fff;
-    background: #6d7fcc;
+    color: black;
+    background: #fff;
 }
 
+#sidebar ul li.dropdown > a, a[aria-expanded="true"] {
+  background: none;
+}
 
 a[data-toggle="collapse"] {
     position: relative;
@@ -265,7 +263,7 @@ a[aria-expanded="true"]::before {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #6d7fcc;
+    background: rgb(33,37,43);
 }
 
 ul.CTAs {
@@ -294,10 +292,22 @@ a.article, a.article:hover {
 ----------------------------------------------------- */
 #content {
     width: 100%;
-    padding: 20px;
+    padding-left: 15px;
+    padding-top: 5px;
     min-height: 100vh;
     transition: all 0.3s;
     position: absolute;
     top: 0;
     right: 0;
+}
+
+.navbar-btn {
+   border-color: #fff !important;
+   color: rgb(33,37,43) !important;
+   background-color: #fff !important;
+}
+
+button {
+  height: 35px;
+  width: 45px;
 }

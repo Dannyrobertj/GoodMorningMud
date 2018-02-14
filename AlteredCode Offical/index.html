@@ -22,13 +22,13 @@
       <!-- Sidebar Holder -->
       <nav id="sidebar">
         <div id="dismiss">
-          <i class="glyphicon glyphicon-arrow-left"></i>
+          <i class="glyphicon glyphicon-remove"></i>
         </div>
           <div class="sidebar-header">
-            <h3>Bootstrap Sidebar</h3>
+            <h3>Menu</h3>
           </div>
           <ul class="list-unstyled components">
-            <p>Dummy Heading</p>
+            <!-- Heading could go here using <p> -->
             <li class="active">
               <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Home</a>
               <ul class="collapse list-unstyled" id="homeSubmenu">
@@ -37,7 +37,7 @@
                 <li><a href="#">Home 3</a></li>
               </ul>
             </li>
-            <li>
+            <li class="dropdown">
               <a href="#">About</a>
               <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Pages</a>
               <ul class="collapse list-unstyled" id="pageSubmenu">
@@ -53,70 +53,55 @@
                   <a href="#">Contact</a>
               </li>
           </ul>
-          <ul class="list-unstyled CTAs">
-            <li><a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a></li>
-            <li><a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a></li>
-          </ul>
+
         </nav>
         <!-- Page Content Holder -->
+        <div class="overlay"></div>
         <div id="content">
-          <nav class="navbar navbar-default">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
-                  <i class="glyphicon glyphicon-align-left"></i>
-                  <span>Open Sidebar</span>
-                </button>
-              </div>
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                  <li><a href="#">Page</a></li>
-                  <li><a href="#">Page</a></li>
-                  <li><a href="#">Page</a></li>
-                  <li><a href="#">Page</a></li>
-                </ul>
-              </div>
+          <nav class="navbar">
+            <div class="navbar-header">
+              <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                <i class="glyphicon glyphicon-align-left"></i>
+              </button>
             </div>
-          </nav>
-        <div class="flex-container">
-          <div class="image-header">
-            <img src="img/chemexAbove.jpg"
-            class="chemexAbove" />
           </div>
-          <div class="text-container">
-            <img src="img/badge.png"
-            class="badge-image"/>
-            <h1 class="orange-text">Only the Finest</h1>
-            <p class="adjust">Equal parts brilliance and common sense, the Chemex remains a staple in every coffee enthusiast's arsenal. Its design has endured, unchanged (wood handle, leather cord, tapered glass and all), since its invention in 1941 by Peter Schlumbohm.</p>
-            <p class="boldText">Sophisticated <br />Charming <br /> Fit for a Crowd</p>
-          </div>
-          <div class="image-container">
-            <img src="img/chemex.png"
-            class="chemex" />
-          </div>
+        </nav>
+      <div class="flex-container">
+        <div class="image-header">
+          <img src="img/chemexAbove.jpg"
+          class="chemexAbove" />
         </div>
-        <div class="flex-container-2">
-          <div class="textbox-container">
-            <h2 class="textbox-container">Background</h2>
-            <p class="textbox-container">Equal parts brilliance and common sense, the Chemex remains a staple in every coffee enthusiast's arsenal. Its design has endured, unchanged (wood handle, leather cord, tapered glass and all), since its invention in 1941 by Peter Schlumbohm. Schlumbohm’s designs were characterized as “a synthesis of logic and madness,” and we're inclined to agree. Coffee from a Chemex is very similar to that from a drip, but there’s more room for error. To guarantee the best results, grind your beans more coarsely than you would for a ceramic drip, and offer extra attention to the pour rate. This level of care yields a delicate and nuanced coffee, with plenty left over to share with friends.</p>
-          </div>
-          <div class="list-container">
-            <figure>
-              <figcaption>What You'll Need</figcaption>
-              <ul>
-                <li><a href="https://tinyurl.com/yd89jtru">Chemex Carafe</a></li>
-                <li><a href="https://tinyurl.com/ydzbrpho">Chemex Filters</a></li>
-                <li><a href="https://tinyurl.com/y9s42px3">Hario Kettle</a></li>
-                <li><a href="https://tinyurl.com/yclnpn2t">Grinder</a></li>
-                <li><a href="https://tinyurl.com/ybpaclk4">Jennings Scale</a></li>
-              </ul>
-            </figure>
-          </div>
+        <div class="text-container">
+          <img src="img/badge.png"
+          class="badge-image"/>
+          <h1 class="orange-text">Only the Finest</h1>
+          <p class="adjust">Equal parts brilliance and common sense, the Chemex remains a staple in every coffee enthusiast's arsenal. Its design has endured, unchanged (wood handle, leather cord, tapered glass and all), since its invention in 1941 by Peter Schlumbohm.</p>
+          <p class="boldText">Sophisticated <br />Charming <br /> Fit for a Crowd</p>
+        </div>
+        <div class="image-container">
+          <img src="img/chemex.png"
+          class="chemex" />
+        </div>
+      </div>
+      <div class="flex-container-2">
+        <div class="textbox-container">
+          <h2 class="textbox-container">Background</h2>
+          <p class="textbox-container">Equal parts brilliance and common sense, the Chemex remains a staple in every coffee enthusiast's arsenal. Its design has endured, unchanged (wood handle, leather cord, tapered glass and all), since its invention in 1941 by Peter Schlumbohm. Schlumbohm’s designs were characterized as “a synthesis of logic and madness,” and we're inclined to agree. Coffee from a Chemex is very similar to that from a drip, but there’s more room for error. To guarantee the best results, grind your beans more coarsely than you would for a ceramic drip, and offer extra attention to the pour rate. This level of care yields a delicate and nuanced coffee, with plenty left over to share with friends.</p>
+        </div>
+        <div class="list-container">
+          <figure>
+            <figcaption>What You'll Need</figcaption>
+            <ul>
+              <li><a href="https://tinyurl.com/yd89jtru">Chemex Carafe</a></li>
+              <li><a href="https://tinyurl.com/ydzbrpho">Chemex Filters</a></li>
+              <li><a href="https://tinyurl.com/y9s42px3">Hario Kettle</a></li>
+              <li><a href="https://tinyurl.com/yclnpn2t">Grinder</a></li>
+              <li><a href="https://tinyurl.com/ybpaclk4">Jennings Scale</a></li>
+            </ul>
+          </figure>
         </div>
       </div>
     </div>
-
-    <div class="overlay"></div>
 
     <!-- jQuery CDN -->
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
