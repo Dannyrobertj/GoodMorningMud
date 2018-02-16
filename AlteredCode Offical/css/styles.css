@@ -116,15 +116,13 @@ img.chemex {
   /*Space-around?*/
   margin: 60px auto 0 auto;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   font-size: 18px;
 }
 
 .list-container {
   padding-top: 64px;
   font-family: 'Tex Gyre Regular';
-  padding-right: 100px;
-  padding-left: 30px;
 }
 
 figcaption {
@@ -231,7 +229,7 @@ h1.textbox-container {
     color: #fff;
 }
 #sidebar ul li a:hover {
-    color: rgb(207,69,33);
+    color: grey;
 }
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
@@ -310,4 +308,26 @@ a.article, a.article:hover {
 button {
   height: 35px;
   width: 45px;
+}
+
+.brewHeader {
+  font-family: "Tex Gyre Regular";
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.brewText {
+  font-family: "Europa Regular";
+  font-size: 20px;
+  color: rgb(0,129,238);
+  margin-top: 0;
+}
+
+.list-container2 {
+  padding-top: 64px;
+}
+
+.list-container3 {
+  padding-top: 20px;
+  padding-right: 40px;
 }
