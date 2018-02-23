@@ -88,24 +88,43 @@
           <h2 class="textbox-container">Background</h2>
           <p class="textbox-container">Equal parts brilliance and common sense, the Chemex remains a staple in every coffee enthusiast's arsenal. Its design has endured, unchanged (wood handle, leather cord, tapered glass and all), since its invention in 1941 by Peter Schlumbohm. Schlumbohm’s designs were characterized as “a synthesis of logic and madness,” and we're inclined to agree. Coffee from a Chemex is very similar to that from a drip, but there’s more room for error. To guarantee the best results, grind your beans more coarsely than you would for a ceramic drip, and offer extra attention to the pour rate. This level of care yields a delicate and nuanced coffee, with plenty left over to share with friends.</p>
         </div>
-        <div class="list-container">
-          <figure>
-            <figcaption>What You'll Need</figcaption>
-            <ul>
-              <li><a href="https://tinyurl.com/yd89jtru">Chemex Carafe</a></li>
-              <li><a href="https://tinyurl.com/ydzbrpho">Chemex Filters</a></li>
-              <li><a href="https://tinyurl.com/y9s42px3">Hario Kettle</a></li>
-              <li><a href="https://tinyurl.com/yclnpn2t">Grinder</a></li>
-              <li><a href="https://tinyurl.com/ybpaclk4">Jennings Scale</a></li>
-            </ul>
-          </figure>
+        <div class="list-wrapper">
+          <div class="list-container">
+            <figure>
+              <figcaption>What You'll Need</figcaption>
+              <ul>
+                <li><a href="https://tinyurl.com/yd89jtru">Chemex Carafe</a></li>
+                <li><a href="https://tinyurl.com/ydzbrpho">Chemex Filters</a></li>
+                <li><a href="https://tinyurl.com/y9s42px3">Hario Kettle</a></li>
+                <li><a href="https://tinyurl.com/yclnpn2t">Grinder</a></li>
+                <li><a href="https://tinyurl.com/ybpaclk4">Jennings Scale</a></li>
+              </ul>
+            </figure>
+          </div>
+          <div class="littleWrap">
+            <div class="list-container-2">
+              <p class="brewHeader">Brew Time</p>
+              <p class="brewText">3 to 4 Minutes</p>
+            </div>
+            <div class="list-container-3">
+              <p class="brewHeader">Serves</p>
+              <p class="brewText">3 to 4 people</p>
+            </div>
+          </div>
         </div>
-        <div class="list-container2">
-          <p class="brewHeader">Brew Time</p>
-          <p class="brewText">3 to 4 Minutes</p>
-        <div class="list-container3">
-          <p class="brewHeader">Serves</p>
-          <p class="brewText">3 to 4 people</p>
+      </div>
+      <div class="brewContainer">
+        <img src="img/brewBanner.jpg"
+        class="brewBanner">
+      </div>
+      <div class="preheatFlex">
+        <div class="coffeeScaleContainer">
+          <img src="img/coffeeScale.jpg"
+          class="coffeeScale">
+        </div>
+        <div class="preheatContainer">
+          <h1 class="preheatHeader">Preheat that Vessel!</h1>
+          <p class="preheatText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum dui at dapibus vestibulum. Aliquam erat volutpat. Nam tincidunt luctus vehicula. Duis efficitur odio sit amet elementum cursus. Donec consectetur sem ut blandit consectetur. Pellentesque molestie ligula volutpat laoreet maximus. Mauris molestie dapibus dapibus. Aenean nec interdum odio.</p>
         </div>
       </div>
     </div>
@@ -119,25 +138,8 @@
     <!-- jQuery Custom Scroller CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
 
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $("#sidebar").mCustomScrollbar({
-                theme: "minimal"
-            });
-
-            $('#dismiss, .overlay').on('click', function () {
-                $('#sidebar').removeClass('active');
-                $('.overlay').fadeOut();
-            });
-
-            $('#sidebarCollapse').on('click', function () {
-                $('#sidebar').addClass('active');
-                $('.overlay').fadeIn();
-                $('.collapse.in').toggleClass('in');
-                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-            });
-        });
-    </script>
+    <!-- sidebar script -->
+    <script src="js/sidebar.js"></script>
 
   </body>
 </html>
