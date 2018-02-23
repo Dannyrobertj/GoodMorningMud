@@ -91,7 +91,7 @@ img.chemex {
 
 @media screen and (max-width: 600px) {
   img.chemex {
-    height: 350px;
+    height: 380px;
   }
 }
 
@@ -359,11 +359,11 @@ button {
 
 .brewContainer {
   text-align: center;
-  padding-bottom: 125px;
+  padding-bottom: 50px;
 }
 
 .brewContainer img {
-  height: 200px;
+  height: 310px;
   width: auto;
 }
 
@@ -382,13 +382,48 @@ button {
   /*Space-around?*/
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 100px;
 }
 
 .preheatContainer {
-  max-width: 400px;
+  max-width: 700px;
+  word-wrap: normal;
   font-family: "Tex Gyre Bold";
+
+}
+
+@media screen and (max-width: 600px) {
+  .preheatContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.coffeeScaleContainer {
 }
 
 .preheatText {
   font-family: "Europa Regular";
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 0;
+
+}
+
+.preheatHeader {
+  margin-top: 0;
+  padding-left: 20px;
+  padding-right: 0;
+}
+
+.step1 {
+  color: rgb(207,69,33);
+  font-size: 24px;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 1137px) {
+  .preheatContainer {
+    padding-right: 20px;
+  }
 }
