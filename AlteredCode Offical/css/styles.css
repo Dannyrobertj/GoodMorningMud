@@ -44,12 +44,16 @@ body {
 .flex-container {
   display: -webkit-flex; /* Safari */
   display: flex;
-  justify-content: space-around;
-  margin: 40px auto 0 auto;
+  justify-content: center;
   flex-wrap: wrap;
   overflow-x: hidden;
   margin-top: 0;
 }
+
+.image-header {
+  padding-bottom: 40px;
+}
+
 
 .image-header img {
   width: 100%;
@@ -58,35 +62,43 @@ body {
 
 .text-container {
   text-align: center;
-  padding: 25px 50px 50px 50px;
-  max-width: 420px;
-  min-width: 420px;
+  max-width: 800px;
   font-family: 'Tex Gyre Regular';
   font-size: 18px;
 }
 
 img.badge-image  {
   height: 150px;
-}
-
-.orange-text {
-  font-family: 'Tex Gyre Bold';
-  font-size: 32px;
-  color: rgb(207,69,33);
+  padding-right: 100px;
+  padding-bottom: 20px;
 }
 
 p.adjust {
-  margin-bottom: 20px;
   font-family: "Europa Regular";
+  text-align: left;
+  padding-right: 100px;
 }
 
-.boldText {
-  font-family: 'Tex Gyre Bold';
+@media screen and (max-width: 1137px) {
+
+  img.badge-image {
+    padding-right: 20px;
+  }
+
+  p.adjust {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+  }
+
+  .text-container {
+    max-width: 700px;
+  }
 }
+
 
 img.chemex {
-  margin: 13px auto 0 auto;
-  height: 504px;
+  height: 450px;
 }
 
 @media screen and (max-width: 600px) {
