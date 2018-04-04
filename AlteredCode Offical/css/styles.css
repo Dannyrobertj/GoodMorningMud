@@ -419,6 +419,7 @@ button {
 #brewContainer {
   text-align: center;
   padding-bottom: 10px;
+  animation-duration: 2s;
 }
 
 @media screen and (max-width: 1137px) {
@@ -575,4 +576,14 @@ button {
   font-family: "The Woodlands";
   font-size: 150px;
   margin-bottom: -30px;
+}
+
+@media screen and (max-width: 600px) {
+  .lets {
+    font-size: 25vw;
+  }
+
+  .brew {
+    font-size: 25vw;
+  }
 }

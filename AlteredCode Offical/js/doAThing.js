@@ -4,7 +4,7 @@ $(document).ready(function(){
   $('#brewContainer').css('opacity', 0);
 
   $('#brewContainer').waypoint(function() {
-      $('#brewContainer').addClass('fadeInUp');
+      $('#brewContainer').addClass('fadeIn');
   }, { offset: '60%' });
 
 });
