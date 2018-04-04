@@ -36,6 +36,14 @@
  url("fonts/Tofino Book/tofinobook-webfont.otf") format("opentype"),
  url("fonts/Tofino Book/tofinobook-webfont.svg#filename") format("svg");}
 
+ @font-face {
+ font-family: "The Woodlands";
+ src: url("fonts/The Woodlands/thewoodlands-regular-webfont.eot");
+ src:
+ url("fonts/The Woodlands/thewoodlands-regular-webfont.woff") format("woff"),
+ url("fonts/The Woodlands/thewoodlands-regular-webfont.otf") format("opentype"),
+ url("fonts/The Woodlands/thewoodlands-regular-webfont.svg#filename") format("svg");}
+
 /*Body Start*/
 body {
   overflow-x: hidden;
@@ -114,7 +122,7 @@ img.chemex {
 
 @media screen and (max-width: 600px) {
   img.chemex {
-    height: 380px;
+    height: 250px;
   }
 }
 
@@ -141,7 +149,13 @@ img.chemex {
   flex-wrap: wrap;
   justify-content: center;
   font-size: 18px;
-  padding-bottom: 125px;
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .flex-container-2 {
+    padding-bottom: 0px;
+  }
 }
 
 .list-container {
@@ -251,7 +265,7 @@ p.textboxParagraph {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: rgb(207,69,33);
+    background: rgb(33,37,43);
 }
 
 #sidebar ul.components {
@@ -402,28 +416,28 @@ button {
   }
 }
 
-.brewContainer {
+#brewContainer {
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 }
 
 @media screen and (max-width: 1137px) {
-  .brewContainer {
+  #brewContainer {
     padding-bottom: 10px;
   }
 }
 
-.brewContainer img {
-  height: 310px;
+#brewContainer img {
+  height: 100px;
   width: auto;
 }
 
 @media screen and (max-width: 600px) {
-  .brewContainer img {
+  #brewContainer img {
   width: 100%;
   height: auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
   }
 }
 
@@ -437,7 +451,7 @@ button {
 }
 
 .preheatContainer {
-  max-width: 700px;
+  max-width: 720px;
   word-wrap: normal;
   font-family: "Tex Gyre Bold";
 
@@ -473,7 +487,7 @@ button {
   padding-left: 20px;
 }
 
-@media screen and (max-width: 1137px) {
+@media screen and (max-width: 1113px) {
   .preheatContainer {
     padding-right: 20px;
   }
@@ -533,7 +547,7 @@ button {
 }
 
 .grainImageContainer {
-  
+  padding-top: 20px;
 }
 
 .line {
@@ -541,11 +555,24 @@ button {
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 @media screen and (max-width:600px) {
   .line {
     padding-top: 40px;
   }
+}
+
+.lets {
+  font-family: 'The Woodlands';
+  font-size: 150px;
+  margin-bottom: -80px;
+
+}
+
+.brew {
+  font-family: "The Woodlands";
+  font-size: 150px;
+  margin-bottom: -30px;
 }
